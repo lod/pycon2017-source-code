@@ -1,0 +1,3 @@
+[submodule "c-client"]
+	path = c-client
+	url = git@github.com:lod/pycon2017-c-client.git

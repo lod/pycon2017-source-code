@@ -1,0 +1,41 @@
+html {
+	background-color: black;
+}
+
+table, tr, td, thead, tbody {
+	margin: 0;
+	padding: 0;
+}
+
+.colorpicker {
+	margin: 0 auto;
+}
+
+.colorpicker table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+td.colorsample {
+	border-color: black;
+	border-style: solid;
+	border-left: 5px;
+	border-top: 1px;
+}
+
+.colorsample {
+	height: 50px;
+	width:  50px;
+	margin:  2px;
+	line-height: 50px;
+	font-size: 50px;
+	font-family: sans-serif;
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
+}
+
+#chosen {
+	background-color: wheat;
+	padding: 1em 10px;
+}
